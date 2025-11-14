@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    height: 150px;
+    position:relative;
+}
+.mininav{
+    border-bottom: 1px solid rgb(81, 77, 77);
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    color: azure;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.bar{
+    height: 125px;
+    width: 100%;
+}
+.logo{
+    height: 125px;
+    width: 50%;
+}
+
+.logo img{
+    width: 120px;
+    height: 25.91px;
+    margin-top: 32px;
+    margin-left: 150px;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    color: black;
+   float: left;
+}
+.hover1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hover2:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.hover3:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.hover4:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.list li{
+    padding: 10px;
+}
+.list ul {
+    margin-left: 10px;
+    align-items: center;
+    position:absolute;
+    top: 53px;
+    left:260px; 
+    font-family:  Helvetica;
+    color:white;
+}
+.icon img{
+    height: 40px;
+    width: 80;
+    position: absolute;
+}
+.icon img{
+    top: 55px;
+    right: 57px;
+    height: 85px;
+    width: 150px;
+}
+.notebook{
+    position: relative;
+}
+.page1 img{
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+}
+.page2 img{
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+}
+.page3 img{
+    width: 400px;
+    margin: 30px;
+    padding: 10px;
+}
+.person{
+    display: flex;
+}
+.left img{
+    width: 400px;
+    margin: 30px;
+    padding: 10;
+}
+.right{
+    margin-left: 30px;
+    padding: 40px;
+}
+.right p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    background-color: black;
+    text-decoration: none;
+    color: azure;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+
+}
+.top{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 500px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top a{
+    font-family: monospace;
+    color: azure;
+}
+.footer{
+    margin-top: 60px;
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+.footer1{
+  height: 250px;
+  width: 100%;  
+}
+.footer1{
+    padding-top: 70px;
+    text-align: center;
+    color:grey;
+    font-weight: 0;
+    font-family:"Lato",sans-serif;
+    border-bottom: 0.5px solid;
+}
+.footer1 a{
+    color:grey;
+    padding-top: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.insta{
+    align-items: center;
+
+}
+.footer2 p{
+    display: flex;
+    color: grey;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-left: 240px;
+}
